@@ -17,8 +17,9 @@ name: RT-Extension-ExtractIP
 no_index:
   directory:
     - inc
+    - t
 requires:
   perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: undef
+version: 0.01
