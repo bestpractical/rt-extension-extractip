@@ -46,7 +46,7 @@ Argument can be used to set CF name and other options, see L<RT::Action::Extract
 
 Insert content of the file into DB using F<sbin/rt-setup-database>:
 
-    ./sbin/rt-setup-database --action content --datafile /path/to/file/you/created/above
+    ./sbin/rt-setup-database --action insert --datafile /path/to/file/you/created/above
 
 After this step you can create a new scrip using action you created above.
 
